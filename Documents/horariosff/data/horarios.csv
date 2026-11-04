@@ -1,0 +1,121 @@
+Turma,Dia,Periodo,Inicio,Fim,Disciplina,Professor
+1ª Série A,Segunda,1,07:00,08:00,Português,Prof. Ana
+1ª Série A,Segunda,2,08:00,09:00,Matemática,Prof. Carlos
+1ª Série A,Segunda,3,09:00,10:00,História,Prof. Beatriz
+1ª Série A,Segunda,,10:00,10:20,*intervalo*,Prof. Roberto
+1ª Série A,Segunda,5,11:00,12:00,Biologia,Prof. Paula
+1ª Série A,Segunda,6,12:00,13:00,Física,Prof. Marcos
+1ª Série A,Segunda,7,13:00,14:00,Química,Prof. Juliana
+1ª Série A,Segunda,8,14:00,15:00,Inglês,Prof. Eduardo
+1ª Série A,Segunda,9,15:00,16:00,Educação Física,Prof. Rafael
+1ª Série A,Segunda,10,16:00,17:00,Filosofia,Prof. Camila
+1ª Série A,Terça,1,07:00,08:00,Matemática,Prof. Carlos
+1ª Série A,Terça,2,08:00,09:00,Português,Prof. Ana
+1ª Série A,Terça,3,09:00,10:00,Sociologia,Prof. Fernanda
+1ª Série A,Terça,4,10:00,11:00,Desenvolvimento de Sistemas,Prof. André
+1ª Série A,Terça,5,11:00,12:00,Algoritmos,Prof. Lucas
+1ª Série A,Terça,6,12:00,13:00,História,Prof. Beatriz
+1ª Série A,Terça,7,13:00,14:00,Geografia,Prof. Roberto
+1ª Série A,Terça,8,14:00,15:00,Biologia,Prof. Paula
+1ª Série A,Terça,9,15:00,16:00,Física,Prof. Marcos
+1ª Série A,Terça,10,16:00,17:00,Química,Prof. Juliana
+1ª Série A,Quarta,1,07:00,08:00,Biologia,Prof. Paula
+1ª Série A,Quarta,2,08:00,09:00,Física,Prof. Marcos
+1ª Série A,Quarta,3,09:00,10:00,Química,Prof. Juliana
+1ª Série A,Quarta,4,10:00,11:00,Português,Prof. Ana
+1ª Série A,Quarta,5,11:00,12:00,Matemática,Prof. Carlos
+1ª Série A,Quarta,6,12:00,13:00,Desenvolvimento de Sistemas,Prof. André
+1ª Série A,Quarta,7,13:00,14:00,Algoritmos,Prof. Lucas
+1ª Série A,Quarta,8,14:00,15:00,Banco de Dados,Prof. Daniela
+1ª Série A,Quarta,9,15:00,16:00,Inglês,Prof. Eduardo
+1ª Série A,Quarta,10,16:00,17:00,Educação Física,Prof. Rafael
+1ª Série A,Quinta,1,07:00,08:00,História,Prof. Beatriz
+1ª Série A,Quinta,2,08:00,09:00,Geografia,Prof. Roberto
+1ª Série A,Quinta,3,09:00,10:00,Português,Prof. Ana
+1ª Série A,Quinta,4,10:00,11:00,Matemática,Prof. Carlos
+1ª Série A,Quinta,5,11:00,12:00,Filosofia,Prof. Camila
+1ª Série A,Quinta,6,12:00,13:00,Sociologia,Prof. Fernanda
+1ª Série A,Quinta,7,13:00,14:00,Desenvolvimento de Sistemas,Prof. André
+1ª Série A,Quinta,8,14:00,15:00,Algoritmos,Prof. Lucas
+1ª Série A,Quinta,9,15:00,16:00,Banco de Dados,Prof. Daniela
+1ª Série A,Quinta,10,16:00,17:00,Biologia,Prof. Paula
+1ª Série A,Sexta,1,07:00,08:00,Física,Prof. Marcos
+1ª Série A,Sexta,2,08:00,09:00,Química,Prof. Juliana
+1ª Série A,Sexta,3,09:00,10:00,Inglês,Prof. Eduardo
+1ª Série A,Sexta,4,10:00,11:00,Educação Física,Prof. Rafael
+1ª Série A,Sexta,5,11:00,12:00,Português,Prof. Ana
+1ª Série A,Sexta,6,12:00,13:00,Matemática,Prof. Carlos
+1ª Série A,Sexta,7,13:00,14:00,História,Prof. Beatriz
+1ª Série A,Sexta,8,14:00,15:00,Geografia,Prof. Roberto
+1ª Série A,Sexta,9,15:00,16:00,Sociologia,Prof. Fernanda
+1ª Série A,Sexta,10,16:00,17:00,Filosofia,Prof. Camila
+1ª Série A,Sábado,1,07:00,08:00,Desenvolvimento de Sistemas,Prof. André
+1ª Série A,Sábado,2,08:00,09:00,Algoritmos,Prof. Lucas
+1ª Série A,Sábado,3,09:00,10:00,Banco de Dados,Prof. Daniela
+1ª Série A,Sábado,4,10:00,11:00,Biologia,Prof. Paula
+1ª Série A,Sábado,5,11:00,12:00,Física,Prof. Marcos
+1ª Série A,Sábado,6,12:00,13:00,Química,Prof. Juliana
+1ª Série A,Sábado,7,13:00,14:00,Inglês,Prof. Eduardo
+1ª Série A,Sábado,8,14:00,15:00,Educação Física,Prof. Rafael
+1ª Série A,Sábado,9,15:00,16:00,Português,Prof. Ana
+1ª Série A,Sábado,10,16:00,17:00,Matemática,Prof. Carlos
+1ª Série B,Segunda,1,07:00,08:00,Matemática,Prof. Carlos
+1ª Série B,Segunda,2,08:00,09:00,Português,Prof. Ana
+1ª Série B,Segunda,3,09:00,10:00,Geografia,Prof. Roberto
+1ª Série B,Segunda,4,10:00,11:00,História,Prof. Beatriz
+1ª Série B,Segunda,5,11:00,12:00,Física,Prof. Marcos
+1ª Série B,Segunda,6,12:00,13:00,Biologia,Prof. Paula
+1ª Série B,Segunda,7,13:00,14:00,Inglês,Prof. Eduardo
+1ª Série B,Segunda,8,14:00,15:00,Química,Prof. Juliana
+1ª Série B,Segunda,9,15:00,16:00,Filosofia,Prof. Camila
+1ª Série B,Segunda,10,16:00,17:00,Educação Física,Prof. Rafael
+1ª Série B,Terça,1,07:00,08:00,Português,Prof. Ana
+1ª Série B,Terça,2,08:00,09:00,Matemática,Prof. Carlos
+1ª Série B,Terça,3,09:00,10:00,Desenvolvimento de Sistemas,Prof. André
+1ª Série B,Terça,4,10:00,11:00,Algoritmos,Prof. Lucas
+1ª Série B,Terça,5,11:00,12:00,Sociologia,Prof. Fernanda
+1ª Série B,Terça,6,12:00,13:00,Geografia,Prof. Roberto
+1ª Série B,Terça,7,13:00,14:00,História,Prof. Beatriz
+1ª Série B,Terça,8,14:00,15:00,Física,Prof. Marcos
+1ª Série B,Terça,9,15:00,16:00,Biologia,Prof. Paula
+1ª Série B,Terça,10,16:00,17:00,Inglês,Prof. Eduardo
+1ª Série B,Quarta,1,07:00,08:00,Física,Prof. Marcos
+1ª Série B,Quarta,2,08:00,09:00,Biologia,Prof. Paula
+1ª Série B,Quarta,3,09:00,10:00,Português,Prof. Ana
+1ª Série B,Quarta,4,10:00,11:00,Matemática,Prof. Carlos
+1ª Série B,Quarta,5,11:00,12:00,Química,Prof. Juliana
+1ª Série B,Quarta,6,12:00,13:00,Inglês,Prof. Eduardo
+1ª Série B,Quarta,7,13:00,14:00,Algoritmos,Prof. Lucas
+1ª Série B,Quarta,8,14:00,15:00,Banco de Dados,Prof. Daniela
+1ª Série B,Quarta,9,15:00,16:00,Educação Física,Prof. Rafael
+1ª Série B,Quarta,10,16:00,17:00,Filosofia,Prof. Camila
+1ª Série B,Quinta,1,07:00,08:00,Geografia,Prof. Roberto
+1ª Série B,Quinta,2,08:00,09:00,História,Prof. Beatriz
+1ª Série B,Quinta,3,09:00,10:00,Matemática,Prof. Carlos
+1ª Série B,Quinta,4,10:00,11:00,Português,Prof. Ana
+1ª Série B,Quinta,5,11:00,12:00,Sociologia,Prof. Fernanda
+1ª Série B,Quinta,6,12:00,13:00,Filosofia,Prof. Camila
+1ª Série B,Quinta,7,13:00,14:00,Algoritmos,Prof. Lucas
+1ª Série B,Quinta,8,14:00,15:00,Desenvolvimento de Sistemas,Prof. André
+1ª Série B,Quinta,9,15:00,16:00,Banco de Dados,Prof. Daniela
+1ª Série B,Quinta,10,16:00,17:00,Química,Prof. Juliana
+1ª Série B,Sexta,1,07:00,08:00,Química,Prof. Juliana
+1ª Série B,Sexta,2,08:00,09:00,Física,Prof. Marcos
+1ª Série B,Sexta,3,09:00,10:00,Educação Física,Prof. Rafael
+1ª Série B,Sexta,4,10:00,11:00,Inglês,Prof. Eduardo
+1ª Série B,Sexta,5,11:00,12:00,Matemática,Prof. Carlos
+1ª Série B,Sexta,6,12:00,13:00,Português,Prof. Ana
+1ª Série B,Sexta,7,13:00,14:00,Geografia,Prof. Roberto
+1ª Série B,Sexta,8,14:00,15:00,História,Prof. Beatriz
+1ª Série B,Sexta,9,15:00,16:00,Filosofia,Prof. Camila
+1ª Série B,Sexta,10,16:00,17:00,Sociologia,Prof. Fernanda
+1ª Série C,Segunda,1,07:00,08:00,Algoritmos,Prof. Lucas
+1ª Série C,Segunda,2,08:00,09:00,Desenvolvimento de Sistemas,Prof. André
+1ª Série C,Segunda,3,09:00,10:00,Banco de Dados,Prof. Daniela
+1ª Série C,Segunda,4,10:00,11:00,Física,Prof. Marcos
+1ª Série C,Segunda,5,11:00,12:00,Biologia,Prof. Paula
+1ª Série C,Segunda,6,12:00,13:00,Inglês,Prof. Eduardo
+1ª Série C,Segunda,7,13:00,14:00,Química,Prof. Juliana
+1ª Série C,Segunda,8,14:00,15:00,Educação Física,Prof. Rafael
+1ª Série C,Segunda,9,15:00,16:00,Matemática,Prof. Carlos
+1ª Série C,Segunda,10,16:00,17:00,Português,Prof. Ana
