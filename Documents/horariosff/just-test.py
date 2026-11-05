@@ -1,18 +1,38 @@
-import pandas as pd
+import streamlit as st #NOSSSA INTERFACE
+import pandas as pd #GRAFICOS E DADOS
+import numpy as np #MANIPULACAO NUMERICA
 
-# Formato ideal de Banco de Dados: Linhas independentes com chaves únicas
-dados_base = [
-    {"turma": "Turma A", "dia": "Segunda", "horario": "07:30 - 08:20", "disciplina": "Matemática"},
-    {"turma": "Turma A", "dia": "Segunda", "horario": "08:20 - 09:10", "disciplina": "Matemática"},
-    {"turma": "Turma A", "dia": "Terça",   "horario": "09:30 - 10:20", "disciplina": "História"},
-    {"turma": "Turma A", "dia": "Sexta",   "horario": "10:20 - 11:10", "disciplina": "Português"},
-    
-    {"turma": "Turma B", "dia": "Segunda", "horario": "07:30 - 08:20", "disciplina": "História"},
-    {"turma": "Turma B", "dia": "Terça",   "horario": "08:20 - 09:10", "disciplina": "Português"},
-    {"turma": "Turma B", "dia": "Quarta",  "horario": "09:30 - 10:20", "disciplina": "Matemática"},
-    {"turma": "Turma B", "dia": "Quarta",  "horario": "10:20 - 11:10", "disciplina": "Matemática"},
-]
+st.title('CORRIDAS DE UBER EM NOVA YORK')
 
-df_csv = pd.DataFrame(dados_base)
-df_csv.to_csv("horarios_escolares.csv", index=False)
-print("Arquivo 'horarios_escolares.csv' gerado com sucesso!")
+DATE_COLUMN = 'date/time'
+DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
+         'streamlit-demo-data/uber-raw-data-sep14.csv.gz')
+@st.cache_data
+def load_data(nrows):
+    data = pd.read_csv(DATA_URL, nrows=nrows)
+    lowercase = lambda x: str(x).lower()
+    data.rename(lowercase, axis='columns', inplace=True)
+    data[DATE_COLUMN] = pd.to_datetime(data[DATE_COLUMN])
+    return data
+
+# Create a text element and let the reader know the data is loading.
+data_load_state = st.text('Loading data...')
+# Load 10,000 rows of data into the dataframe.
+data = load_data(10000)
+# Notify the reader that the data was successfully loaded.
+data_load_state.text("Done! (using st.cache_data)")
+
+if st.checkbox('Mostrar dados brutos'):
+    st.subheader('Dados brutos')
+    st.write(data)
+
+st.subheader('Número de corridas por hora')
+
+hist_values = np.histogram(data[DATE_COLUMN].dt.hour, bins=24, range=(0,24))[0]
+st.bar_chart(hist_values,x_label="hora", y_label="nª pedidos",width=5000,color="#61D921")
+
+hour_to_filter = st.slider('hora', 0, 23, 17)  # min: 0h, max: 23h, default: 17h
+filtered_data = data[data[DATE_COLUMN].dt.hour == hour_to_filter]
+st.subheader(f'Mapa de todos os pedidos às {hour_to_filter}:00')
+st.map(filtered_data)
+

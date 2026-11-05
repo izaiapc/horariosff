@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 DIAS = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"]
-horarios = Path(__file__).parent / "data" / "horarios.csv"
+horarios = Path(__file__).parent / "data" / "meus-horarios.csv"
 
 # Paleta consistente: a mesma disciplina recebe sempre a mesma cor.
 PALETA = [
